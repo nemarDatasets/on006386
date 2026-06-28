@@ -1,28 +1,71 @@
 {
   "version": "2.0",
-  "dataset_id": "on006386",
-  "source": "openneuro",
-  "source_id": "ds006386",
+  "pipeline_stage": "validated",
   "title": "PhysioMotion_Artifact",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Jiangwei Yu": {},
     "Aonan He": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006386.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006386",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006386",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "PhysioMotion_Artifact is an electroencephalography dataset organized according to the Brain Imaging Data Structure (BIDS) standard. The dataset contains EEG recordings with associated physiological measurements and artifact annotations, designed to support research on artifact detection and physiological signal processing in neuroimaging studies.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "artifact detection"
+    },
+    {
+      "term": "physiological signals"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "electrophysiology"
+    }
+  ],
+  "source_hash": "859dc225f6c0af16bfd8c38b1ffb1b78bb2e2597ff20148b7f396725aa673c76"
 }
