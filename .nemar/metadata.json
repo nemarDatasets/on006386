@@ -2,18 +2,33 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "PhysioMotion_Artifact",
+  "description": "PhysioMotion_Artifact is an EEG dataset organized according to the Brain Imaging Data Structure (BIDS) standard. The dataset contains electrophysiological recordings with associated physiological motion artifact annotations, designed to support research on artifact detection and removal in EEG analysis. This resource facilitates the development and validation of artifact handling methods in neuroimaging studies.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Jiangwei Yu": {},
     "Aonan He": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds006386.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "artifact detection"
+    },
+    {
+      "term": "physiological motion"
+    },
+    {
+      "term": "Electrophysiology",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004594"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on006386",
       "identifier_type": "URL",
@@ -33,39 +48,27 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds006386.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "38.9 GB (541 files)"
   ],
   "formats": [
     ".csv",
     ".edf",
     ".json",
     ".md",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "PhysioMotion_Artifact is an electroencephalography dataset organized according to the Brain Imaging Data Structure (BIDS) standard. The dataset contains EEG recordings with associated physiological measurements and artifact annotations, designed to support research on artifact detection and physiological signal processing in neuroimaging studies.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "artifact detection"
-    },
-    {
-      "term": "physiological signals"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "electrophysiology"
-    }
-  ],
-  "source_hash": "859dc225f6c0af16bfd8c38b1ffb1b78bb2e2597ff20148b7f396725aa673c76"
+  "source_hash": "829556de0fc78686d513b2c9340b5183a84d5eb7b4f9bc1e685b24f69517a9ec"
 }
