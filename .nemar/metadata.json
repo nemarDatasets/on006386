@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "PhysioMotion_Artifact",
-  "description": "PhysioMotion_Artifact is an EEG dataset organized according to the Brain Imaging Data Structure (BIDS) standard. The dataset contains electrophysiological recordings with associated physiological motion artifact annotations, designed to support research on artifact detection and removal in EEG analysis. This resource facilitates the development and validation of artifact handling methods in neuroimaging studies.",
+  "description": "PhysioMotion_Artifact is an electrophysiological dataset organized in BIDS format containing EEG recordings with associated physiological motion artifacts. The dataset serves as a resource for studying and developing artifact detection and correction methods in EEG analysis, with potential applications in motor imagery and brain-computer interface research.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,18 +14,16 @@
       "term": "EEG"
     },
     {
-      "term": "artifact detection"
+      "term": "artifacts"
     },
     {
       "term": "physiological motion"
     },
     {
-      "term": "Electrophysiology",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004594"
+      "term": "BIDS"
     },
     {
-      "term": "BIDS"
+      "term": "electrophysiology"
     }
   ],
   "related_identifiers": [
